@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ConditionalsExercise
+comment1.params=
+comment1.target=void\ validHour()
+comment1.text=\ Ask\ user\ for\ an\ integer\r\n\ if\ the\ number\ is\ a\ valid\ hour\ (1\ to\ 12),\ then\ it\ prints\ the\ number\ in\r\n\ the\ form\ \ "The\ time\ is\ 6\ o'clock"\ (if\ they\ entered\ 6\r\n\ otherwise\ it\ prints\ \ "That\ number\ is\ not\ a\ valid\ time"\r\n
+comment2.params=
+comment2.target=void\ wordGame()
+comment2.text=\ Asks\ the\ user\ to\ enter\ a\ word.\r\n\ Says\ "Yes,\ that\ fits"\ if\ the\ word\ starts\ with\ "p"\ and\ is\ 7\ characters\ long,\r\n\ and\ "Sorry,\ that\ word\ won't\ work"\ otherwise.\r\n
+comment3.params=
+comment3.target=void\ drawAFlag()
+comment3.text=\ \ Asks\ the\ user\ to\ enter\ the\ name\ of\ a\ country,\ and\r\n\ draws\ the\ appropriate\ flag\ (by\ calling\ one\ of\ the\r\n\ methods\ below).\r\n\ Recognises\ japan,\ indonesia,\ austria\ and\ bangladesh.\r\n
+comment4.params=
+comment4.target=void\ longestWord()
+comment4.text=\ Asks\ the\ user\ to\ enter\ three\ words\ and\ prints\ out\ the\ longest\ one.\r\n\ (if\ two\ words\ are\ equally\ long,\ it\ doesn't\ matter\ which\ it\ prints).\r\n\ You\ can\ call\ the\ length()\ method\ on\ a\ string\ to\ find\ out\ how\ long\ it\ is.\r\n\ Note\ that\ there\ are\ three\ possible\ cases\ to\ check\ for.\r\n
+comment5.params=
+comment5.target=void\ drawJapanFlag()
+comment5.text=Draws\ the\ Japanese\ flag
+comment6.params=
+comment6.target=void\ drawIndonesiaFlag()
+comment6.text=Draws\ the\ Indonesian\ flag
+comment7.params=
+comment7.target=void\ drawAustriaFlag()
+comment7.text=Draws\ the\ Austrian\ flag
+comment8.params=
+comment8.target=void\ drawBangladeshFlag()
+comment8.text=Draws\ the\ Bangladeshi\ flag
+numComments=9

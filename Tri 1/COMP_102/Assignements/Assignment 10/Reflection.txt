@@ -1,0 +1,17 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name:
+ * Username:
+ * ID:
+ */
+
+Questions for Reflection: 
+=========================
+
+This was the last assignment for COMP102.  Think back to the beginning of the
+course and what you knew at that point, and then list some of the new skills
+and understanding that you believe that you have gained during this course.
+
+
+[For some of you who are still finding the course difficult, you could
+try doing some of the early assignments again; you may find them an awful lot
+easier the second time round, demonstrating that you have learned stuff!]

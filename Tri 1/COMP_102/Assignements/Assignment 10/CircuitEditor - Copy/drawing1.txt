@@ -1,0 +1,13 @@
+resistor 172.0 121.0 true  100k
+resistor 342.0 121.0 true  47k
+capacitor 243.0 179.0 false  40mF
+source 91.0 181.0 false  10V
+connector 242.0 248.0 true  
+capacitor 389.0 184.0 false  10mF
+wire 172.0 121.0 91.0 181.0 
+wire 172.0 121.0 242.0 179.0 
+wire 342.0 121.0 242.0 179.0 
+wire 242.0 248.0 91.0 176.0 
+wire 342.0 121.0 388.0 184.0 
+wire 242.0 248.0 388.0 184.0 
+wire 242.0 179.0 242.0 248.0 

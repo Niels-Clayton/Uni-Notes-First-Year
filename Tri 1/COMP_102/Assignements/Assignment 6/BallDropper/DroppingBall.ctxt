@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=DroppingBall
+comment0.text=\ DroppingBall\ represents\ a\ ball\ that\ falls\ towards\ the\ ground.\r\n\ \ \ \ Each\ time\ the\ step()\ method\ is\ called,\ it\ will\ take\ one\ step.\r\n\ For\ the\ Challenge\ part,\ the\ ball\ bounces\ when\ it\ reaches\ the\ ground.\r\n
+comment1.params=x\ h\ s\ c
+comment1.target=DroppingBall(double,\ double,\ double,\ java.awt.Color)
+comment1.text=\ Construct\ a\ new\ DroppingBall\ object.\r\n\ \ Parameters\ are\ the\ initial\ x\ position,\ the\ height\ above\ the\ ground,\r\n\ \ the\ initial\ speed\ to\ the\ right\ (ie,\ the\ horizontal\ step\ size),\ and\r\n\ \ the\ colour.\r\n\ \ Stores\ the\ parameters\ into\ fields\ (computing\ the\ y\ position\ from\ the\ height)\r\n\ \ and\ initialises\ the\ other\ fields,\r\n
+comment2.params=
+comment2.target=double\ getHeight()
+comment2.text=Return\ the\ height\ of\ the\ ball\ above\ the\ ground
+comment3.params=
+comment3.target=double\ getWidth()
+comment4.params=
+comment4.target=void\ step()
+comment4.text=\ Move\ the\ ball\ one\ step.\r\n\ \ Changes\ its\ height\ and\ x\ position\ using\ the\ vertical\ and\ horizonal\ steps\r\n\ \ If\ it\ would\ go\ below\ ground,\ then\ change\ its\ y\ position\ to\ ground\ level\r\n
+comment5.params=
+comment5.target=void\ bounce()
+comment6.params=
+comment6.target=void\ draw()
+comment6.text=Draw\ the\ ball\ on\ the\ Graphics\ Pane\ in\ its\ current\ position
+numComments=7

@@ -1,0 +1,13 @@
+wire 95.0 174.0 201.0 288.0 
+wire 398.0 205.0 390.0 245.0 
+wire 358.0 316.0 764.0 293.0 
+wire 718.0 122.0 432.0 275.0 
+capacitor 171.0 316.0 true bwelwifih\
+capacitor 259.0 236.0 true 
+capacitor 500.0 145.0 true 
+capacitor 597.0 223.0 true 
+capacitor 597.0 229.0 true 
+capacitor 442.0 258.0 true 
+capacitor 269.0 390.0 true 
+capacitor 355.0 457.0 true 
+capacitor 498.0 453.0 true 

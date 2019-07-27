@@ -1,0 +1,51 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection:
+=========================
+
+1. What is one thing that you did in this assignment that is similar to the
+previous assignment? Was it easier this time? How did you approach doing it?
+
+    In the previous assignment when attempting the paint calculator challenge
+    I tried to use loops, but I was not very successful and I never got them to work.
+    In both 'date validator', and in 'CartoonCharacter' I used loops. In date validator
+    I used them to apply different 'if/else' statements to different months, and in CartoonCharacter
+    I used loops in order to make the characters move more fluidly. I did this as the
+    '.walk' command would make the character instantly jump to the new position rather than move.
+    To overcome this I created a loop that move the character one pixel at a time.
+    This then created the issue that the screen would only update every 500ms,
+    so in the "CartoonCharacter" class I edited UI.sleep(500), and changed it to
+    UI.sleep(3), meaning that the screen would update every 3ms.
+
+    The use of loops was much easier in this assignment as I had a greater understanding
+    of Boolean logic, and I understood the difference between a Boolean statement, and
+    a parameter.
+
+
+2. Why did the dance method have to have a parameter (the CartoonCharacter face
+parameter)?
+
+    The dance method had the parameter (CartoonCharacter face) because the method
+    didn't have an object for it to call actions on. The dance method was only a set
+    of general instructions to be applied to a 'CartoonCharacter', and it needed
+    for there to be a 'CartoonCharacter' within the method that was calling it.
+    Because an existing 'CartoonCharacter' is required for the dance method,
+    it is a parameter.
+
+3. When using several "if" statements, you can use a sequence of separate "if"
+statements or you can combine them into a longer "if... else if .... else if ...."
+statement.  What's the difference, and which is better?
+
+    When using a sequence of separate 'if' statements, If your input matches more
+    that one of the 'if' statements you will get multiple outputs. However when doing
+    the longer 'if... else if... else' statements, you will only get one output as it
+    will halt as soon as one of the if statements is met.
+
+    The longer 'if... else if...' statements are better as they allow you to be more
+    accurate with what the output will be. However a sequence of separate 'if'
+    statements might be more useful in cases where you want to see all the outputs
+    the statements will fit into.

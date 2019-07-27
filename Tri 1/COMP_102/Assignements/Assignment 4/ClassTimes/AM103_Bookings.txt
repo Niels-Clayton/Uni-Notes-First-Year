@@ -1,0 +1,10 @@
+ Bookings for room AM103
+ ----------------------------------
+Course: ENGR101
+Time:   Mon  1710- 1900
+Session: Tutorial
+
+Course: ENGR101
+Time:   Wed  1710- 1900
+Session: Tutorial
+

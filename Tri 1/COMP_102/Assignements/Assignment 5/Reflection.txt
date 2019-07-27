@@ -1,0 +1,33 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+1. For the Core of ImageRenderer, you didn't need to use
+while(scan.hasNext()), but for the Completion (animated images) you did need to
+use while(scan.hasNext()). Explain the difference.
+_______________________________________________________________________________________
+with the core, the file would only contain one image, because of this we can assume that
+once the initial non-Integer tokens have been read the rest of the file will be integers, else 
+we have reached the end of the file and can close the scanner. However, with the animated 
+images the file would contain many different frames of the image which would each need to be 
+drawn one after the other. because of this we need to constantly check if the file has more
+information to be read and drawn. This is done by including the while(scan.hasNext()) loop.
+
+
+2. If an image was standard SVGA size (800x600), how big might a ppm file of the
+image be, given that each character in the file (including the spaces) requires
+1 byte?  How much worse is this than a typical jpg or png file of the same
+number of pixels?  (you may need to go and find some typical images that are
+about 800x600 pixels).
+ 
+each ppm fild begins with 4 tokens, P3, width and height, and colour depth. 
+In the case of a 800x600 image that would total 12characters just for the description 
+of the file. the file would then contain 480,000 pixels, each requiring 3 tokens of 
+information or 9 characters plus 3 spaces, totaling 12bytes per pixel. 
+in total this would mean that a standard colour depth ppm image of 800x600 could 
+have a file size of up to 5,760,012 bytes or around 5.8 megabytes.

@@ -1,0 +1,28 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name:Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+
+1. Explain why "off-by-one" errors are so easy to make when programming with
+arrays.
+
+"off-by-one" errors are easy to make when working with arrays because when using a loop if you set the counter 
+to the incorrect number then you will go out of the bounds of the array. This however is easy to deal with by using 
+a for loop with a counter starting at 0, this is and getting the loop to count till less than 'array.size()', and since they 
+both start at position 0 then this will always run to the end of the array.
+
+2. Both DominoGame and EarthquakeAnalyser used another class that was written for you.
+This saved you writing some code, but also constrained you to write the program in a particular way. 
+Discuss advantages and disadvantages you found when having a predefined class that you had to use as part of your program.
+
+The predefined classes for DominoGame and EarthquakeAnalyser made coding much easier, specifically in terms of doing complicated 
+calculations. In EarthquakeAnalyser the timeBetween, and getDistance methods make the calculation from cordiantes to km, far easier.
+Because of this I was saved a large amount of time doing these calculations myself, and writing my own method. 
+Similarly, in dominoGame the drawDomino method made the drawing of dominos far more simplistic. 
+The disadvantages of having a predefined class could be that you have to write your program around the given methods, however there 
+is nothing stopping you from writing you own methods inside of the DominoGame class, so personally i can't see any dissadvantages. 

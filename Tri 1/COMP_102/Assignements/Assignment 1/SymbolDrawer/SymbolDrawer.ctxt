@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=SymbolDrawer
+comment0.text=\r\n\ Draws\ various\ symbols\:\ flags,\ signs,\ and\ car\ logos\r\n\r\n\ You\ can\ find\ lots\ of\ flag\ details\ (including\ the\ correct\ dimensions\ and\ colours)\r\n\ from\ \ http\://www.crwflags.com/fotw/flags/\r\n
+comment1.params=left\ top\ width
+comment1.target=void\ drawFranceFlag(double,\ double,\ double)
+comment1.text=\ \ \ CORE\r\n\ Draw\ the\ flag\ of\ France.\r\n\ The\ flag\ has\ three\ vertical\ stripes;\r\n\ The\ left\ is\ blue,\ the\ right\ is\ red\ and\ the\ middle\ is\ white.\r\n\ The\ flag\ is\ 2/3\ as\ high\ as\ it\ is\ wide\ (ratio\ 2\:3).\r\n
+comment2.params=left\ top\ size
+comment2.target=void\ drawHospitalSign(double,\ double,\ double)
+comment2.text=\ \ \ CORE\r\n\ Draw\ the\ hospital\ sign\ -\ a\ blue\ square\ with\ a\ big\ white\ centred\ H.\r\n\ The\ H\ is\ made\ of\ 3\ rectangular\ strips\r\n
+comment3.params=left\ top\ width
+comment3.target=void\ drawLaosFlag(double,\ double,\ double)
+comment3.text=\ \ \ CORE\r\n\ Draw\ the\ flag\ of\ Laos.\r\n\ The\ flag\ has\ three\ horizontal\ stripes\ with\ a\ white\ circle\ in\ the\ centre;\r\n\ See\ the\ assignment\ for\ the\ dimensions.\r\n
+comment4.params=left\ top\ width
+comment4.target=void\ drawUaeFlag(double,\ double,\ double)
+comment4.text=\ \ \ COMPLETION\r\n\ Draw\ the\ flag\ of\ the\ United\ Arab\ Emirates.\r\n\ The\ flag\ has\ a\ vertical\ red\ stripe\ on\ the\ left,\ and\r\n\ three\ horizontal\ stripes\ (green,\ white,\ black)\ on\ the\ right.\r\n\ See\ the\ assignment\ for\ dimensions\ and\ details.\r\n
+comment5.params=left\ top\ width
+comment5.target=void\ drawGreenlandFlag(double,\ double,\ double)
+comment5.text=\ \ \ COMPLETION\r\n\ Draw\ the\ flag\ of\ Greenland.\r\n\ The\ top\ half\ of\ the\ flag\ is\ white,\ and\ the\ bottom\ half\ is\ red.\r\n\ There\ is\ a\ circle\ in\ the\ middle\ (off-set\ to\ left)\ \ which\ is\r\n\ also\ half\ white/red\ but\ on\ the\ opposite\ sides.\r\n\ See\ the\ assignment\ for\ dimensions\r\n
+comment6.params=left\ top\ size
+comment6.target=void\ drawMitsubishiLogo(double,\ double,\ double)
+comment6.text=\ \ \ CHALLENGE\r\n\ Draw\ the\ Misubishi\ Logo.\r\n
+comment7.params=left\ top\ width
+comment7.target=void\ drawKoruFlag(double,\ double,\ double)
+comment7.text=\ \ \ CHALLENGE\r\n\ Draw\ the\ Koru\ Flag.\r\n\ It\ was\ one\ of\ the\ new\ flag\ designs\ for\ the\ 2016\ referendum,\r\n\ designed\ by\ Sven\ Baker\ from\ Wellington\r\n\ The\ flag\ is\ 1/2\ as\ high\ as\ it\ is\ wide\ (ratio\ 1\:2).\r\n
+numComments=8

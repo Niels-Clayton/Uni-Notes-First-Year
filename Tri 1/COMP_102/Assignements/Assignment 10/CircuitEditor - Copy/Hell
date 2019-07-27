@@ -1,0 +1,52 @@
+wire 172.0 121.0 91.0 181.0 
+wire 172.0 121.0 242.0 179.0 
+wire 342.0 121.0 242.0 179.0 
+wire 242.0 248.0 91.0 176.0 
+wire 342.0 121.0 388.0 184.0 
+wire 242.0 248.0 388.0 184.0 
+wire 242.0 179.0 242.0 248.0 
+wire 194.0 91.0 332.0 269.0 
+wire 66.0 315.0 206.0 435.0 
+wire 459.0 244.0 199.0 199.0 
+wire 223.0 63.0 233.0 106.0 
+wire 440.0 68.0 319.0 203.0 
+wire 501.0 152.0 434.0 1.0 
+wire 572.0 154.0 560.0 392.0 
+wire 84.0 350.0 84.0 350.0 
+wire 474.0 469.0 179.0 456.0 
+wire 529.0 59.0 355.0 151.0 
+wire 151.0 67.0 151.0 67.0 
+wire 151.0 67.0 151.0 67.0 
+wire 170.0 244.0 170.0 244.0 
+wire 170.0 244.0 170.0 244.0 
+wire 271.0 211.0 271.0 211.0 
+wire 128.0 387.0 128.0 387.0 
+resistor 172.0 121.0 true 100k
+resistor 342.0 121.0 true 47k
+capacitor 243.0 179.0 false 40mF
+source 91.0 181.0 false im fucking gay
+connector 242.0 248.0 true 
+capacitor 389.0 184.0 false 10mF
+resistor 194.0 164.0 true 
+resistor 298.0 199.0 true 
+resistor 298.0 199.0 true 
+resistor 298.0 199.0 true 
+resistor 375.0 448.0 false 
+resistor 471.0 221.0 true 
+resistor 455.0 115.0 true 
+resistor 455.0 115.0 true 
+resistor 292.0 403.0 false 
+resistor 292.0 403.0 true 
+resistor 200.0 281.0 true 
+resistor 200.0 281.0 true 
+resistor 593.0 225.0 false 
+resistor 279.0 269.0 false 
+source 82.0 123.0 true 
+source 283.0 105.0 true 
+source 283.0 105.0 true 
+source 361.0 67.0 true 
+source 361.0 67.0 true 
+source 466.0 327.0 false 
+source 383.0 328.0 true 
+capacitor 96.0 286.0 true 
+capacitor 258.0 389.0 true 

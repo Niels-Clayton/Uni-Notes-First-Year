@@ -1,0 +1,40 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+1. The Core version of drawThreeColourFlag needed 5 parameters; the Completion
+version needed 6 parameters. Suggest another parameter you could add to make it
+even more flexible.  How could you decide when to stop adding parameters to a
+method to make it more flexible? 
+______________________________________________________________________________________________________________
+To make the flag drawer more flexible, you could add the paramater of scale. this paramater 
+would multiply the width and height of each flag by the value given, aswell as the left top values. 
+this would ensure that the flags stay in the same orientation and position relative to eachother 
+while increasing in size. 
+In terms of when to stop, it depends on at what point you are trading flexibility for usability. 
+if the program requires 15 different paramaters to be entered by the user just to draw somthing simple like a flag, 
+then the program is becomming drastically less user friendly even though it may have a greater flexibility. 
+_______________________________________________________________________________________________________________
+
+
+2. printAverage computed and printed the average, but minimumOfList just
+computed and returned the minimum - it didn't print it out.  Which design is
+better and why?  What are the advantages of making a method do multiple things,
+and what are the advantages of making a method do just one thing?
+
+______________________________________________________________________________________________________________
+
+I believe the design of minimumOfList is much better than that of printAverage. This is because by having the 
+method return a value (in this case a Double) you are able to call that method at any point within the main. 
+This make it a lot more flexible as it allows you to call the minimum or maximum of the list at any point rather than having 
+to re-write out the code within the method many times. 
+printAverage however does have the simplicity of being able to bot calculate at the same time. If you were to print the minimum
+you would need to creat another method and call the minimumOfList method. Because of this, if they variable you are calcualting 
+is only required once within the code it would be cleaner and easier to write the method to both calculate and print it. 
+How ever it would also be possible to make the printAverage method a 'public double' rather than a 'public void', and then also 
+ask it to print out within the method. this would allow you to call it to return a double, and to have it print when it is called.

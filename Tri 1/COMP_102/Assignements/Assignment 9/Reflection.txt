@@ -1,0 +1,21 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+
+1. Some of the methods in the ImageProcessor program could be done in two
+different ways: "in-place" (only using the array containing the image), or
+using a temporary array to store the image as it was being processed. Discuss
+the advantages and disadvantages of the two approaches. 
+
+By using a temporary array you keep all of the information in the original array intact, this means that you wont have to deal with the
+issue of overwriting information that you need to keep. This however has the downside of being both slower then a direct switch as each element 
+must first be copied into a new array and then copied back, and it will require a greater percentage of the system resources, as it will need to 
+store twice the information.
+
+

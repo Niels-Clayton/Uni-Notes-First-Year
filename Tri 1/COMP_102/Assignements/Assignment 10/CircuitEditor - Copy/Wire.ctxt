@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Wire
+comment0.text=\r\n\ A\ wire\ is\ a\ connection\ between\ two\ points\r\n\ It\ is\ drawn\ as\ a\ horizontal\ line\ from\ the\ first\ point\r\n\ \ \ followed\ by\ a\ vertical\ line\ to\ the\ second\ point.\r\n\ \ \ (If\ the\ points\ are\ (x1,y1)\ and\ (x2,\ y2),\ the\ mid\ point\ is\ (x1,y2))\r\n\ It\ needs\ a\ constructor\r\n\ It\ needs\ methods\ to\r\n\ \ draw\ the\ wire\r\n\ \ highlight\ the\ wire\r\n\ \ determine\ if\ a\ point\ (x,y)\ is\ on\ the\ wire\ (or\ close\ enough\ to\ the\ wire)\r\n\ \ rotate\ the\ wire\ (exchanging\ start\ and\ end\ points)\r\n\ \ move\ the\ wire.\r\n
+comment1.params=x1\ y1\ x2\ y2
+comment1.target=Wire(double,\ double,\ double,\ double)
+comment2.params=
+comment2.target=void\ draw_wire()
+comment3.params=
+comment3.target=void\ highlight_wire()
+comment4.params=x\ y
+comment4.target=boolean\ on_wire(double,\ double)
+comment5.params=
+comment5.target=void\ rotate_wire()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=String\ of\ details\ of\ the\ Wire,\ for\ saving\ to\ a\ file\ or\ for\ debugging.
+numComments=7

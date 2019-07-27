@@ -1,0 +1,26 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection:
+=========================
+
+Almost certainly, when you wrote your code, you had bugs in it which you had to
+fix. Some of the bugs were probably easy to identify; others probably took more
+time.
+
+1. Characterize the kinds of bugs you had to deal with (eg spelling, punctuation, ...)
+
+I found myself forgetting to put a semi-colon at the end of each line of code. I also
+treated the value 'Top'as a variable to describe dimensions of my symbol rather than
+a constant displacement.
+
+2. What techniques for fixing the bugs were most effective for you? Can you
+think of better approaches that you could use next time?
+
+As I became more familiar with coding in java I began to remember to end each line with
+a semicolon, so I believe that with more practice I will not encounter this issue anymore.
+The same is true with my incorrect usage of the value 'top'. As I progressed through the
+assessment I encountered this issue less and began using the correct value 'height'.

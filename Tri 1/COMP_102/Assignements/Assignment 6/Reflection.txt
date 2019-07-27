@@ -1,0 +1,55 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for reflection.
+=========================
+
+1. Did your DroppingBall go straight, fall nicely by gravity, or did it bounce?
+______________________________________________________________________________________
+I managed to make the dropping ball both fall faster due to gravity, and make it bounce.
+______________________________________________________________________________________
+
+2. Did you work out how to make the ball go down at a steeper angle to take
+gravity into account? How did you do it?
+_______________________________________________________________________________________
+I came up with two different methods to make the ball go down at a steeper angle as time went on.
+the first method was to introduce a variable into ball height called gravity. this variable would 
+increase with each step of the ball, causing its height to decrease, and therefor its angle it increase. 
+
+I then decided that rather than a variable gravity, inorder to get a more realistic fall and bounce i would
+model the position of the ball using a quadratic equation. using the simple equation y=mx + c. taking the new
+x-cordinate of each step I would substute that into the above equation and get the required y value for the ball.
+this however had implications for the bouncing of the ball, since as the graph progresses the ball once crossing 
+the x-axis will continue to go down. To counteract this as soon as the ball touches the x-axis i reset the apparnt
+x-value so that the porabola could be redrawn.
+________________________________________________________________________________________
+
+3. If you made your DroppingBall bounce, how did you tell when you needed to
+make a new ball?
+_____________________________________________________________________________________________
+In the ballDropper program in the dropAndBounce method I asked if(ball.getWidth() > 800).
+if this were to be true then creat a new ball and start again. this meant that as soon as the ball
+has travled 800 pixles it will be overwritten by a new ball.
+_____________________________________________________________________________________________
+
+4. Why do we need a DroppingBall class? Couldn't the code all be part of the
+BallDropper class? What is the advantages of having it separate.
+___________________________________________________________________________________________
+If we were to keep everything within the BallDropper class that would mean that for each 
+ball we wanted to make we would need a new set of fields for that ball. However by having a 
+seperate DroppingBall class we are able to create multipul balls by simply creating a new 
+object which stores all the required information of its colour and positioning within it. 
+because of this it is far cleaner to have two seperate classes as it means would could make 
+an endless amount of ball objects without needing to keep adding new fields and variables.
+____________________________________________________________________________________________ 
+
+5. Why do you need fields in the CircuitDrawer program?  Why couldn't you use
+local variables in the methods?  
+____________________________________________________________________________________________
+Fields had to be used because there were multipul methods that had to be able to get access to
+the same information. For example the orientation of a component. all of the drawing methods 
+except for wire, eraser anf wire, reqiured to be told what orientation to be drawn in. inorder
+for this to occor the infomation must be stored outside of a method, and kept in a field.

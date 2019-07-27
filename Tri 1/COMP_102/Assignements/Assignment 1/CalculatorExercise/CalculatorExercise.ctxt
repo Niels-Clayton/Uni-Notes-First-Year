@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=CalculatorExercise
+comment0.text=\ Program\ for\ calculating\ various\ things\r\n\ Some\ methods\ convert\ between\ two\ units\r\n\ Other\ methods\ perform\ other\ simple\ calculations\ \r\n
+comment1.params=
+comment1.target=void\ milesToKilometers()
+comment2.params=
+comment2.target=void\ triangleArea()
+comment2.text=\ Ask\ for\ base\ and\ height,\ then\ calculate\ area\ of\ triangle\r\n
+comment3.params=
+comment3.target=void\ gramsToOunces()
+comment4.params=
+comment4.target=void\ surfaceAreaOfSphere()
+comment4.text=Ask\ for\ radius,\ and\ then\ compute\ surface\ of\ a\ sphere
+comment5.params=
+comment5.target=void\ kelvinToFahrenheit()
+comment5.text=Ask\ for\ kelvin\ then\ convert\ to\ Fahrenheit
+comment6.params=
+comment6.target=void\ costOfPizzas()
+comment6.text=Ask\ for\ number\ of\ pizzas\ and\ cost\ per\ pizza,\ then\ compute\ cost\ of\ order\ of\ pizzas
+numComments=7

@@ -1,0 +1,24 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+1. The series of methods in ClassTimes were progressively more tricky. Identify
+what it was about the later ones that made them more difficult.
+_________________________________________________________________________________________________________
+In the later methods we were required to do more with the the tokens from each line than just read them. 
+In some of the methods we were required to store previous tokens inorder to be able calculate things, re-arange 
+the tokens into a more visually appealing manner, or write them to a seperate file. 
+
+
+2. The lines in classdata.txt were sorted by the coursecode. What queries would
+be easier or have nicer output if they had been sorted by one of the other columns?
+_________________________________________________________________________________________________________
+If the colums had been sorted with the 'start time' and 'end time' of each class as the first two colums
+then any method requiring onlt those values would be much easier to write. that is because it would allow you
+to scan for nextInt() and then throw away the rest of the line. This would mean that you wont have to store each
+token from each line inorder to retrive the time.

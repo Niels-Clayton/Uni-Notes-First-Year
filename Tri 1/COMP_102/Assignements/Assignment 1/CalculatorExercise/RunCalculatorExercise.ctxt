@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=RunCalculatorExercise
+comment0.text=RunCalculatorExercise\ for\ testing\ the\ calculator\ exercise\ methods
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=Construct\ a\ new\ CalculatorExercise\ object\ and\ initialise\ the\ interface
+numComments=2

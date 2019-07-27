@@ -1,0 +1,40 @@
+/* Reflection.txt for COMP102 - 2018T1
+ * Name: Niels Clayton
+ * Username: claytoniel
+ * ID: 300437590
+ */
+
+Questions for Reflection: 
+=========================
+
+
+0. List which methods of the WaveformAnalyser you completed.
+
+I completed :
+- Read
+- display
+- showSpread
+- displayDistortion
+- highlightPeaks
+- normalise
+- doEnvelop
+- save
+
+1. Explain why  ArrayLists are better than using lots of variables when your program needs to store lots of values.
+______________________________________________________________________________________________________________________________________________________________
+If you are using multipul vapiables you have to initilize each of them seperatly and name each of them, this means that if you were to try to read a file and 
+store several thousand values you would need to initilize thousands of variables and name them all. 
+ArrayLists on the other hand only need to be initilized once for each type of value being stored, and then rather than needing to name each element seperatly 
+they are indexed under the name of the array. this allows you to store as many variables as you want without having to initilize each of them seperatly, and inorder 
+to recall them you simply call the index of the value that you want.
+______________________________________________________________________________________________________________________________________________________________
+
+2. ArrayLists allow you to write programs with collections of data, but so do files. What are the similarities and differences between files and ArrayLists.  
+   What can you do with one that is hard or impossible with the other?
+___________________________________________________________________________________________________________________________________________________________
+
+ArrayLists are easily accessable to a program it retrive values, you simply call the arraylist and the index of the value you wish to retrieve. Files on the other
+hand must first be scanned using a scanner object and have the values stored, either in fields or in an array, befor the program is able to access the values. 
+this means that within a program an arrayList is much more sumple to use as the data can be accessed faster than a file. However if you want to store the 
+values in an array list permanantly the only way to do this would to write them to a file inorder to retrive them at a later time.
+
